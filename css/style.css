@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: clip;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+.boja{
+    background: rgb(244, 244, 244)
+  }
+
+.borderBottom{
+    text-align: center;
+    border-bottom: 3px solid gold;
+    width:50%;
+    padding-bottom: 24px;
+}
+.shadowOnText{
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.ui-menu{
+    width: 100px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.ui-menu-item{
+    font-size: 16px;
+}
+footer{
+    position: relative;
+    margin-top: auto;
+}
+
+.footerImg{
+    width:100%;
+    height:34vh;
+    object-fit: cover;
+}
+
+.textOnFooterImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1200px) {
+
+
+    .flexColumn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textOnFooterImg{
+        font-size: 48px;
+    }  
+ 
+    
+    .ui-menu{
+        width: 100px;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    
+    .textOnFooterImg{
+        font-size: 20px;
+    }
+
+    .ui-menu{
+        width: 100px;
+        max-height: 200px;
+        overflow-y: scroll;
+    }
+
+    
+
+    
+}

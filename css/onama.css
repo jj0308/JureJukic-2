@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+.kampusImg{
+    height:40vh;
+    object-fit: cover;
+}
+.pFont{
+  font-family: 'Dancing Script', cursive; 
+}
+.borderOkoPiH{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+}
+
+
+.backgroundImage{
+  background: url('../media/images/kakoDoNas.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 30px;
+  
+}
+
+.kartaHeight{
+  height: 65vh;
+}
+
+
+
